@@ -19,4 +19,41 @@
 .container {
     display: flex;
     gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 {
+    display: flex;
+    padding: 40px 40px;
+    background-color: #1f2937;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.left-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left-body {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-button {
+    color: #3882f6;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    background-color: grey;
+    flex-wrap: nowrap;
 }
