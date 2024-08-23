@@ -18,6 +18,7 @@
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
    
 }
 .container {
@@ -38,6 +39,7 @@
     flex-wrap: wrap;
     max-width: 300px;
     padding-right: 40px;
+    gap: 10px;
 }
 
 .left-heading {
@@ -52,7 +54,11 @@
 }
 
 .left-button {
-    color: #3882f6;
+    color: white;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .right {
@@ -61,4 +67,5 @@
     padding: 100px;
     background-color: grey;
     flex-wrap: nowrap;
+    color: white;
 }
