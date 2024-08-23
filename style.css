@@ -1,7 +1,10 @@
+/* add flex grow/shrink/basis */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -9,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 100px;
 }
 
 .header-logo {
@@ -25,7 +29,7 @@
 
 .section-1 {
     display: flex;
-    padding: 40px 40px;
+    padding: 40px 100px;
     background-color: #1f2937;
 }
 
@@ -33,6 +37,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
+    padding-right: 40px;
 }
 
 .left-heading {
