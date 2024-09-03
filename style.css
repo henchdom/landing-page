@@ -86,7 +86,7 @@
 .images {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
 .image-1,
@@ -99,9 +99,10 @@
     
 }
 
-.subtext-1,
-.subtext-2,
-.subtext-3,
-.subtext-4 {
+.images-subtext {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 10px 50px;
 }
