@@ -112,7 +112,18 @@
     display: flex;
     background-color: #e5e7eb;
     color: #1f2937;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
 }
